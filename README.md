@@ -19,8 +19,10 @@ Conformément aux engagements de l'article publié, ce dépôt met à dispositio
 * `TextMine2026.pdf` : L'article (v2) déposé pour la compétition.
 * `LLM_inference.py` : Le script principal utilisant l'API Gemini (mode Batch) pour l'inférence.
 * `prompts.py` : Le catalogue d'une sélection des stratégies de prompting testées (dont la stratégie H, la plus performante).
-* `data/lexique-des-acronymes-sncf.json` : Le lexique de référence utilisé pour l'augmentation des données.
+* `data/lexique-des-acronymes-sncf.json` : Le lexique de référence utilisé pour l'augmentation des données, disponible en [Open Data](https://ressources.data.sncf.com/explore/dataset/lexique-des-acronymes-sncf/information/).
 * `baseline-tfidf.py` : Script de référence pour la baseline statistique.
+
+Afin de lancer les scripts, il nécessaire de récupérer le jeu d'entrainement et de test sur la [page Kaggle](https://www.kaggle.com/competitions/defi-text-mine-egc-2026/data) du défi TextMine 2026.
 
 ## 🛠️ Installation & utilisation
 
